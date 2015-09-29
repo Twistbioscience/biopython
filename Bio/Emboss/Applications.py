@@ -1046,7 +1046,6 @@ class EInvertedCommandline(_EmbossCommandLine):
                  is_required=True),
          _Option(["-gap", "gap"],
                  "Gap penalty",
-                 filename=True,
                  is_required=True),
          _Option(["-threshold", "threshold"],
                  "Minimum score threshold",
