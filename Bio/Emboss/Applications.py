@@ -1083,9 +1083,6 @@ class PalindromeCommandline(_EmbossCommandLine):
          _Option(["-nummismatches", "nummismatches"],
                  "Number of mismatches allowed",
                  is_required=True),
-         _Option(["-overlap", "overlap"],
-                 "Report overlapping matches",
-                 is_required=True),
          ]
         _EmbossCommandLine.__init__(self, cmd, **kwargs)
 
